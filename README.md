@@ -2,6 +2,11 @@
 
 [English](./README.md) | [Русский](./README.ru.md)
 
+[![Release](https://img.shields.io/github/v/release/GANSGX/liquid-glass-css?sort=semver)](https://github.com/GANSGX/liquid-glass-css/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Issues](https://img.shields.io/github/issues/GANSGX/liquid-glass-css)](https://github.com/GANSGX/liquid-glass-css/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
 Minimal, dark-first liquid glass CSS kit built for production UI surfaces.
 
 ## Primary Demo
