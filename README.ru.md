@@ -1,42 +1,37 @@
 # Liquid Glass CSS
 
-В этом репозитории есть две версии документации:
-- English: `README.md`
-- Русская: `README.ru.md`
+[English](./README.md) | [Русский](./README.ru.md)
 
-Минималистичный open-source набор liquid glass стилей на чистом CSS с фокусом на темный фон.
-В репозитории только базовые стили, а авторский mock-концепт здесь:
-[test-motion-design.vercel.app](https://test-motion-design.vercel.app/).
+Минималистичный dark-first набор liquid glass стилей на чистом CSS для реальных интерфейсов.
 
-## Зачем
+## Основной Демо-референс
 
-- Чистый glass-эффект без лишнего визуального шума
-- На темной теме эффект выглядит заметно лучше
-- Переиспользуемые классы для форм, карточек и навигации
+Этот репозиторий специально сфокусирован на базовых стилях.  
+Главная визуальная концепция и showcase находятся на mock-сайте автора:
 
-## Что внутри
+- [test-motion-design.vercel.app](https://test-motion-design.vercel.app/)
 
-- Только CSS, без JavaScript
-- Размытие, контурный блик и глубина через тени
-- Минималистичный темный стиль
-- Готовые HTML-примеры
+## Что Внутри
+
+- Liquid glass стили на чистом CSS без JavaScript
+- Базовый пресет для переиспользуемых блоков
+- Усиленный пресет для навигации и активных элементов
+- Вспомогательные классы для форм
 
 ## Установка
 
-### Клонирование
-
 ```bash
-git clone https://github.com/<your-username>/liquid-glass-css.git
+git clone https://github.com/GANSGX/liquid-glass-css.git
 cd liquid-glass-css
 ```
 
-### Подключение
+Подключение:
 
 ```html
 <link rel="stylesheet" href="./css/liquid-glass.css">
 ```
 
-## Быстрый старт
+## Быстрый Старт
 
 ```html
 <section class="glass-form liquid-glass">
@@ -46,46 +41,41 @@ cd liquid-glass-css
 </section>
 ```
 
-## Классы
+## Основные Классы
 
-- `.liquid-glass` - базовая стеклянная панель
-- `.nav-blob` - усиленный стеклянный блок для навигации/активных состояний
-- `.glass-form` - обертка для форм и карточек
-- `.glass-input` - поле ввода
-- `.glass-textarea` - textarea
-- `.glass-button` - основная кнопка
-- `.glass-button.secondary` - вторичная кнопка
+- `.liquid-glass` - базовая стеклянная поверхность
+- `.nav-blob` - усиленная стеклянная поверхность для навигации/активных состояний
+- `.glass-form` - компактная обертка-панель
+- `.glass-input` / `.glass-textarea` - поля формы
+- `.glass-button` / `.glass-button.secondary` - кнопки действий
 
-## Примеры
+## Локальные Примеры
 
 - [examples/form-login.html](./examples/form-login.html)
 - [examples/form-contact.html](./examples/form-contact.html)
 - [examples/variants.html](./examples/variants.html)
-- Референс mock-сайт: [test-motion-design.vercel.app](https://test-motion-design.vercel.app/)
 
-## Скриншоты
+## Скриншоты Mock-референса
 
-Mock hero (glass nav + CTA):
+Hero секция:
 
 ![Mock Hero](./assets/mock-hero.png)
 
-Mock секция протокола:
+Секция протокола:
 
 ![Mock Protocol](./assets/mock-protocol.png)
 
-Mock карточки фич:
+Карточки фич:
 
 ![Mock Cards](./assets/mock-cards.png)
 
-## Локальный запуск
-
-Открыть пример напрямую:
+## Локальный Просмотр
 
 ```bash
-open ./examples/form-login.html
+open ./examples/variants.html
 ```
 
-Или через локальный сервер:
+или
 
 ```bash
 npx serve .
