@@ -1,37 +1,31 @@
 # Liquid Glass CSS
 
-This repository has two documentation versions:
-- English: `README.md`
-- Russian: `README.ru.md`
+[English](./README.md) | [Русский](./README.ru.md)
 
-Minimal, dark-first, open-source liquid glass styles built with pure CSS.
-This repo focuses on base styles, while the author's mock concept lives here:
-[test-motion-design.vercel.app](https://test-motion-design.vercel.app/).
+Minimal, dark-first liquid glass CSS kit built for production UI surfaces.
 
-## Why This
+## Primary Demo
 
-- Clean glassmorphism without UI noise
-- Tuned for dark backgrounds where the effect looks best
-- Reusable classes for forms, cards, nav blobs, and controls
+This repository is intentionally base-focused.  
+The main visual concept and showcase is available on the author's mock site:
 
-## Features
+- [test-motion-design.vercel.app](https://test-motion-design.vercel.app/)
 
-- Pure CSS (no JavaScript required)
-- Soft blur + edge highlight + depth shadows
-- Minimal dark visual language
-- Base-first API (`.liquid-glass` and `.nav-blob`)
-- Ready-to-use examples
+## What You Get
 
-## Install
+- Pure CSS liquid glass styles (no JavaScript)
+- Clean base preset for reusable UI blocks
+- Strong preset for navigation and active elements
+- Form-ready helpers for fast prototyping
 
-### Clone repository
+## Installation
 
 ```bash
-git clone https://github.com/<your-username>/liquid-glass-css.git
+git clone https://github.com/GANSGX/liquid-glass-css.git
 cd liquid-glass-css
 ```
 
-### Include stylesheet
+Include stylesheet:
 
 ```html
 <link rel="stylesheet" href="./css/liquid-glass.css">
@@ -47,46 +41,41 @@ cd liquid-glass-css
 </section>
 ```
 
-## Utility Classes
+## Core Classes
 
-- `.liquid-glass` - base glass panel
-- `.nav-blob` - strong glass chip for nav/active controls
-- `.glass-form` - layout wrapper for forms/cards
-- `.glass-input` - text-like input field
-- `.glass-textarea` - textarea style
-- `.glass-button` - primary button
-- `.glass-button.secondary` - muted secondary button
+- `.liquid-glass` - base glass surface
+- `.nav-blob` - stronger glass surface for nav/active controls
+- `.glass-form` - compact panel wrapper
+- `.glass-input` / `.glass-textarea` - form fields
+- `.glass-button` / `.glass-button.secondary` - action buttons
 
-## Examples
+## Local Examples
 
 - [examples/form-login.html](./examples/form-login.html)
 - [examples/form-contact.html](./examples/form-contact.html)
 - [examples/variants.html](./examples/variants.html)
-- Reference mock site: [test-motion-design.vercel.app](https://test-motion-design.vercel.app/)
 
-## Screenshots
+## Mock Reference Screenshots
 
-Mock hero (glass nav + CTA):
+Hero section:
 
 ![Mock Hero](./assets/mock-hero.png)
 
-Mock protocol section:
+Protocol section:
 
 ![Mock Protocol](./assets/mock-protocol.png)
 
-Mock feature cards:
+Feature cards:
 
 ![Mock Cards](./assets/mock-cards.png)
 
 ## Local Preview
 
-Open any example file directly:
-
 ```bash
-open ./examples/form-login.html
+open ./examples/variants.html
 ```
 
-Or run a static server:
+or
 
 ```bash
 npx serve .
