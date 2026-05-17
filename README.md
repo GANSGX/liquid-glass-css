@@ -1,24 +1,37 @@
-# Liquid Glass CSS
+<h1 align="center">Liquid Glass CSS</h1>
 
-[English](./README.md) | [Русский](./README.ru.md)
+<p align="center">
+  <a href="./README.md">English</a> | <a href="./README.ru.md">Русский</a>
+</p>
 
-Minimal, dark-first liquid glass CSS kit built for production UI surfaces.
+<p align="center">
+  <strong>Minimal, dark-first liquid glass CSS kit built for production UI surfaces.</strong>
+</p>
 
-## Primary Demo
+<p align="center">
+  <a href="https://test-motion-design.vercel.app/"><img src="https://img.shields.io/badge/Demo-test--motion--design-06B6D4?style=flat-square&logo=vercel" alt="Live Demo" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/CSS-Pure-3178C6?style=flat-square&logo=css3" alt="Pure CSS" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-88CE02?style=flat-square" alt="MIT License" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.0.1-61DAFB?style=flat-square" alt="v1.0.1" /></a>
+</p>
+
+---
+
+## ✦ Primary Demo
 
 This repository is intentionally base-focused.  
 The main visual concept and showcase is available on the author's mock site:
 
 - [test-motion-design.vercel.app](https://test-motion-design.vercel.app/)
 
-## What You Get
+## ✦ What You Get
 
 - Pure CSS liquid glass styles (no JavaScript)
 - Clean base preset for reusable UI blocks
 - Strong preset for navigation and active elements
 - Form-ready helpers for fast prototyping
 
-## Installation
+## ✦ Installation
 
 ```bash
 git clone https://github.com/GANSGX/liquid-glass-css.git
@@ -28,10 +41,10 @@ cd liquid-glass-css
 Include stylesheet:
 
 ```html
-<link rel="stylesheet" href="./css/liquid-glass.css">
+<link rel="stylesheet" href="./src/liquid-glass.css">
 ```
 
-## Quick Start
+## ✦ Quick Start
 
 ```html
 <section class="glass-form liquid-glass">
@@ -41,7 +54,7 @@ Include stylesheet:
 </section>
 ```
 
-## Core Classes
+## ✦ Core Classes
 
 - `.liquid-glass` - base glass surface
 - `.nav-blob` - stronger glass surface for nav/active controls
@@ -49,27 +62,33 @@ Include stylesheet:
 - `.glass-input` / `.glass-textarea` - form fields
 - `.glass-button` / `.glass-button.secondary` - action buttons
 
-## Local Examples
+<br/>
+
+## ✦ Local Examples
 
 - [examples/form-login.html](./examples/form-login.html)
 - [examples/form-contact.html](./examples/form-contact.html)
 - [examples/variants.html](./examples/variants.html)
 
-## Mock Reference Screenshots
+<br/>
+
+## ✦ Mock Reference Screenshots
 
 Hero section:
 
-![Mock Hero](./assets/mock-hero.png)
+![Mock Hero](./assets/mock-hero.jpg)
 
 Protocol section:
 
-![Mock Protocol](./assets/mock-protocol.png)
+![Mock Protocol](./assets/mock-protocol.jpg)
 
 Feature cards:
 
-![Mock Cards](./assets/mock-cards.png)
+![Mock Cards](./assets/mock-cards.jpg)
 
-## Local Preview
+<br/>
+
+## ✦ Local Preview
 
 ```bash
 open ./examples/variants.html
@@ -81,6 +100,6 @@ or
 npx serve .
 ```
 
-## License
+## ✦ License
 
 MIT
